@@ -11,6 +11,8 @@ image_bytes = query({
 	"inputs": st.text_input('Enter Prompt'),
 
 })
+
+st.title("Text to Image")
 # You can access the image with PIL.Image for example
 import io
 from PIL import Image
